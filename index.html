@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="accent-text">Alex</span></h1>
+            <h2 id="typewriter"></h2>
+            <p>I build interactive and responsive websites.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I am a passionate developer who loves solving problems and creating beautiful user experiences. I specialize in HTML, CSS, and JavaScript, and I am always learning new technologies.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>E-Commerce Site</h3>
+                <p>A fully responsive online store layout with a cart system.</p>
+            </div>
+            <div class="card">
+                <h3>Weather App</h3>
+                <p>A JavaScript app that fetches real-time weather data via API.</p>
+            </div>
+            <div class="card">
+                <h3>Task Manager</h3>
+                <p>A simple To-Do list application to track daily tasks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Alex Developer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
